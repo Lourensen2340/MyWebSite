@@ -1,0 +1,37 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы редакторов кода
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Логи и временные файды
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы зависимостей
+node_modules/
+
+# Сборки и артефакты
+dist/
+build/
+*.exe
+*.dll
+
+# Файлы операционных систем
+*.bak
+*.tmp
+*.temp
+
+# Файлы Docker (опционально)
+docker-compose.override.yml
+
+# Файлы образа Docker
+*.tar.gz
+*.dockerimage
